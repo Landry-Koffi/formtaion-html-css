@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/css/styles.css">
+    <title>Exercice Formation HTML et CSS</title>
+</head>
+
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar">
+        <div class="ligne">
+            <div class="colonne">
+                <a href="index.html" class="lien active">Accueil</a>
+                <a href="#contact" class="lien">Contact</a>
+                <a href="login.html" class="lien">Login</a>
+                <a href="register.html" class="lien">Register</a>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="conteneur">
+            <div class="ligne-header">
+                <img src="images/image1.jpg" alt="image 1" class="img-responsive">
+            </div>
+        </div>
+    </header>
+    <h1>Produits</h1>
+    <section>
+        <div class="conteneur-section">
+            <div class="ligne">
+                <div class="colonne">
+                    <img src="images/piment.jpeg" alt="Piment" class="img">
+                    <p>Piment de Bondoukou</p>
+                    <p>Prix : 500 FCFA/Kg</p>
+                    <a href="commande.html" class="btn">Acheter</a>
+                </div>
+            </div>
+            <div class="ligne">
+                <div class="colonne">
+                    <img src="images/aubergine.jpeg" alt="Aubergine" class="img">
+                    <p>Aubergine violet</p>
+                    <p>Prix : 800 FCFA/Kg</p>
+                    <a href="commande.html" class="btn">Acheter</a>
+                </div>
+            </div>
+            <div class="ligne">
+                <div class="colonne">
+                    <img src="images/banane.jpg" alt="Banane" class="img">
+                    <p>Banane poyo</p>
+                    <p>Prix : 1500 FCFA/Kg</p>
+                    <a href="commande.html" class="btn">Acheter</a>
+                </div>
+            </div>
+            <div class="ligne">
+                <div class="colonne">
+                    <img src="images/tomate.jpeg" alt="Tomate" class="img">
+                    <p>Tomate</p>
+                    <p>Prix : 700 FCFA/Kg</p>
+                    <a href="commande.html" class="btn">Acheter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section>
+        <div class="conteneur-section">
+            <div class="ligne">
+                <div class="colonne">
+                    <img src="images/banane_plantain.png" alt="Piment" class="img">
+                    <p>Piment de Bondoukou</p>
+                    <p>Prix : 500 FCFA/Kg</p>
+                    <a href="commande.html" class="btn">Acheter</a>
+                </div>
+            </div>
+            <div class="ligne">
+                <div class="colonne">
+                    <img src="images/cacao.jpg" alt="Aubergine" class="img">
+                    <p>Aubergine violet</p>
+                    <p>Prix : 800 FCFA/Kg</p>
+                    <a href="commande.html" class="btn">Acheter</a>
+                </div>
+            </div>
+            <div class="ligne">
+                <div class="colonne">
+                    <img src="images/Carote.jpg" alt="Banane" class="img">
+                    <p>Banane poyo</p>
+                    <p>Prix : 1500 FCFA/Kg</p>
+                    <a href="commande.html" class="btn">Acheter</a>
+                </div>
+            </div>
+            <div class="ligne">
+                <div class="colonne">
+                    <img src="images/gnangnan.jpg" alt="Tomate" class="img">
+                    <p>Tomate</p>
+                    <p>Prix : 700 FCFA/Kg</p>
+                    <a href="commande.html" class="btn">Acheter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Comment fonctionne la vente directe sur le site ?</h2>
+        <div class="font-fonctionnement fonctionnement">
+            <div class="colonne">
+                <h3>On découvre le terroir Ivoirien ?</h3>
+                <hr>
+                <p>Comme au marché, cette vente direct producteur vous permet de faire votre sélection auprès des producteurs et artisans Ivoiriens. Petits producteurs sélectionnés par nos soins dans toute la Côte d'Ivoire</p>
+            </div>
+            <div class="colonne">
+                <h3>La livraison?</h3>
+                <hr>
+                <p>Vous pouvez être livré a votre domicile pour toutes les commandes (frais ,sec et vin). La livraison s’effectue via nos agents,</p>
+            </div>
+            <div class="colonne">
+                <h3>L’origine est-elle garantie ?</h3>
+                <hr>
+                <p>Nous rencontrons chaque producteur. Par conséquent, cela nous permet de vous garantir que tout ce que vous commandez par cette vente direct producteur est 100% Ivoiriens et totalement artisanal .</p>
+            </div>
+            <div class="colonne">
+                <h3>Question de Prix, cela donne quoi ?</h3>
+                <hr>
+                <p>Tout ce que vous achetez est garanti au prix juste pour le producteur. En effet les producteurs définissent eux-même le tarif . De plus, un prix juste pour le consommateur par la vente en direct en limitant les intermédiaires.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="form">
+        <h2 id="contact">CONTACTEZ-NOUS</h2>
+        <div class="form-contenu">
+            <form action="#" method="post">
+                <div class="form-align">
+                    <input type="text" name="" id="" class="form-text" placeholder="Entrez votre nom" required>
+                    <input type="email" name="" id="" class="form-email" placeholder="Entrez votre mail" required>
+                </div>
+                <div class="form-bas">
+                    <textarea name="" id="" cols="30" rows="15" class="form-textarea" placeholder="Entrez votre message" required></textarea>
+                </div>
+                <button type="submit" class="form-bouton">ENVOYER</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© MAX-WEB 2021 - Tous droits réservés</p>
+    </footer>
+</body>
+
+</html>
